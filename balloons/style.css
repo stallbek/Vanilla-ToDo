@@ -1,0 +1,48 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+}
+
+
+
+button{
+    width: 230px;
+    height: 230px;
+    background-color: transparent;
+    border: none;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+body{
+    width: 1000px;
+    height: 1000px;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+}
+
+.red{
+    background-color: red;
+}
+
+#reload{
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 60px;
+    border-radius: 8px;
+    background-color: lightgray;
+}
